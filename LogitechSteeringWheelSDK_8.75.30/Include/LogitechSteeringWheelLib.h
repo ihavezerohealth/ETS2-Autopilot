@@ -100,7 +100,7 @@ typedef struct LogiControllerPropertiesData
 	int wheelRange;
 	bool gameSettingsEnabled;
 	bool allowGameSettings;
-}LogiControllerPropertiesData;
+} LogiControllerPropertiesData;
 
 //DIJOYSTATE2 redefined with basic types in order to make it work with UDK DLLBind
 typedef struct DIJOYSTATE2ENGINES {
