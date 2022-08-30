@@ -146,6 +146,7 @@ public class LogitechGSDK
     public static extern bool LogiSteeringInitialize(bool ignoreXInputControllers);
 
     [DllImport("LogitechSteeringWheelEnginesWrapper", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.Cdecl)]
+    [DllExport("LogiUpdate", CallingConvention = CallingConvention.Cdecl)]
     public static extern bool LogiUpdate();
 
     [DllImport("LogitechSteeringWheelEnginesWrapper", CallingConvention = CallingConvention.Cdecl)]

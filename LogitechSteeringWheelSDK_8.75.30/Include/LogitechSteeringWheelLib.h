@@ -6,7 +6,8 @@
 
 #pragma once
 #ifndef __DINPUT_INCLUDED__
-#include <dinput.h>
+//#include <dinput>
+#include "C:/Users/Michal jr. K/OneDrive/Dokumenty/aaaaProgramming/ETS2-Autopilot/LogitechSteeringWheelSDK_8.75.30/Include/dinput.dll"
 #endif
 
 
